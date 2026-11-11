@@ -1,13 +1,11 @@
-count = 1000
+running = True
 
-for i in range(count+1):
-    i+=1
-    for j in range(count+1):
-        j+=1
-        for k in range(count+1):
-            k+=1
-            if i + j + k == 1000 and i**2 + j**2 == k**2:
-                print(i,j,k)
-                result = i*j*k
+while running:
+    for i in range(1,1000):
+        for j in range(1,1000):
+            for k in range(1,1000):
+                if (i**2 + j**2 == k**2) and (i + j + k == 1000):
+                    running = False
+                    print(i*j*k)
 
-print(result)
+                
