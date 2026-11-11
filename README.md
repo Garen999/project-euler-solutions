@@ -8,7 +8,7 @@
 * 009
 
 ## Completed Problems (5)
-* 001
+* 001 (not tracked)
 * 002
 * 006
 * 016
