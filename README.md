@@ -7,8 +7,9 @@
 * 007
 * 009
 
-## Completed Problems (4)
+## Completed Problems (5)
 * 001
+* 002
 * 006
 * 016
 * 020
