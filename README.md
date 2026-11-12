@@ -1,15 +1,6 @@
-# Project Euler Username: Garen
+## My Information
+* Project Euler Username: Garen
+* Number of Completed Problems: 10
 
-# Statistics
-
-## In Progress Problems (3)
-* 005
-* 007
-
-## Completed Problems (5)
-* 001 (not tracked)
-* 002
-* 006
-* 009
-* 016
-* 020
+## New Information learned
+* Sieve of Eratosthenes - An algorithm used to determine a list of primes efficiently
