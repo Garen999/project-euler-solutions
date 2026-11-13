@@ -1,7 +1,5 @@
-with open("problems/problem-022 (incomplete)/names.txt", "r") as file:
-    names = sorted(file.read().replace("", '').split(','))
-
-print(names[:5])
+with open("problems/problem-022/names.txt", "r") as file:
+    names = sorted(file.read().replace('"', '').split(","))
 
 name_sum = 0
 
