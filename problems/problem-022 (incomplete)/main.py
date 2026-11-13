@@ -1,9 +1,11 @@
-with open("problems/problem-022/names.txt", "r") as file:
+with open("problems/problem-022 (incomplete)/names.txt", "r") as file:
     names = sorted(file.read().replace("", '').split(','))
+
+print(names[:5])
 
 name_sum = 0
 
-for i in range(len(names)-1):
+for i in range(len(names)):
     letter_sum = 0
 
     for letter in names[i]:

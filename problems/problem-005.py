@@ -1,13 +1,15 @@
-found = False
-number = 1
+num = 1
 
-while not found:
-    divisible_count = 0
+while True:
+    evenly_divisible = True
+
     for i in range(1,21):
-        if number % i == 0:
-            divisible_count+=1
-        if divisible_count == 20:
-            found = True
-    number+=1
+        if num % i != 0:
+            evenly_divisible = False
 
-print(number)
+    if evenly_divisible:
+        break
+
+    num+=1
+
+print(num)
